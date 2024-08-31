@@ -85,7 +85,6 @@ Scikit-learn
 XGBoost
 
 <br>
-<br>
 <hr>
 
 Model Performance :
