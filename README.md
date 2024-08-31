@@ -14,10 +14,15 @@ The project includes a machine learning model that predicts equipment failure, a
 Features :
 <br>
 Data Analysis & Feature Engineering: Exploratory Data Analysis (EDA) and feature engineering steps to handle and preprocess sensor and usage data.
+<br>
 Model Selection: Tested with different models including Decision Tree Classifier, Random Forest, and XGBoost. XGBoost provided the best accuracy.
+<br>
 Real-time Monitoring: Flask web app with a user-friendly interface to predict system failure.
+<br>
 CI/CD Pipelines: Integrated pipelines for continuous integration and continuous delivery.
+<br>
 Model Deployment: The final model is saved as a pickle file and deployed using Flask.
+<br>
 Alert System: Provides alerts based on prediction results to notify about potential machine failures.
 <br>
 <br>
