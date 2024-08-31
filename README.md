@@ -83,8 +83,6 @@ Numpy
 Pandas
 <br>
 Scikit-learn
-<br>
-XGBoost
 <hr>
 
 Model Performance :
