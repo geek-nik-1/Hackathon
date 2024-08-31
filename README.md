@@ -11,7 +11,6 @@ The project includes a machine learning model that predicts equipment failure, a
 <br>
 <hr>
 
-
 Features :
 <br>
 Data Analysis & Feature Engineering: Exploratory Data Analysis (EDA) and feature engineering steps to handle and preprocess sensor and usage data.
@@ -23,7 +22,6 @@ Alert System: Provides alerts based on prediction results to notify about potent
 <br>
 <br>
 <hr>
-<br>
 
 Technology Stack :
 <br>
@@ -36,6 +34,7 @@ Frontend: HTML, CSS
 Model Deployment: Flask
 <br>
 <br>
+<hr>
 
 Project Structure :
 <br>
@@ -64,13 +63,9 @@ Project Structure :
 <br>
 └── README.md                     # This README file
 <br>
+<br>
+<hr>
 
-
-<br>
-<br>
-<br>
-Getting Started
-<br>
 Prerequisites :
 <br>
 Python 3.7+
@@ -87,6 +82,7 @@ XGBoost
 
 <br>
 <br>
+<hr>
 
 Model Performance :
 <br>
@@ -100,6 +96,7 @@ RandomForest: Moderate accuracy
 DecisionTree: Baseline model
 <br>
 <br>
+<hr>
 
 
 Future Enhancements :
@@ -113,10 +110,14 @@ Optimize the model for better real-time performance.
 Add more data sources for improved prediction accuracy.
 <br>
 <br>
+<hr>
 
 Contributing:
 <br>
 Feel free to open issues or submit pull requests for improvements and features.
+<br>
+<br>
+<hr>
 
 
 Acknowledgments :
