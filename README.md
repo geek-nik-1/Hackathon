@@ -23,9 +23,11 @@ Alert System: Provides alerts based on prediction results to notify about potent
 Technology Stack :
 <br>
 Backend: Python, Flask
+<br>
 Machine Learning: Scikit-learn, XGBoost, Numpy, Pandas
+<br>
 Frontend: HTML, CSS
-CI/CD: GitHub Actions (or any other CI/CD tool you may have used)
+<br>
 Model Deployment: Flask
 <br>
 <br>
@@ -33,18 +35,30 @@ Model Deployment: Flask
 Project Structure :
 <br>
 ├── src
+<br>
 │   ├── pipeline
+<br>
 │   │   ├── __init__.py
+<br>
 │   │   ├── predict_pipeline.py   # Prediction pipeline code
+<br>
 ├── templates
 │   ├── index.html                # Main page
+<br>
 │   ├── home.html                 # Prediction page
+<br>
 ├── static
+<br>
 │   ├── css
+<br>
 │   │   └── styles.css            # Styling for the web pages
+<br>
 ├── app.py                        # Flask application entry point
+<br>
 ├── model.pkl                     # Trained machine learning model
+<br>
 └── README.md                     # This README file
+<br>
 
 
 <br>
@@ -55,10 +69,15 @@ Getting Started
 Prerequisites :
 <br>
 Python 3.7+
+<br>
 Flask
+<br>
 Numpy
+<br>
 Pandas
+<br>
 Scikit-learn
+<br>
 XGBoost
 
 <br>
@@ -68,27 +87,30 @@ Model Performance :
 <br>
 The model performance was evaluated using different machine learning techniques. XGBoost performed the best, providing the highest accuracy compared to Decision Tree and Random Forest.
 <br>
-
+<br>
 XGBoost: Best accuracy
+<br>
 RandomForest: Moderate accuracy
+<br>
 DecisionTree: Baseline model
 <br>
 <br>
 
-CI/CD Pipeline :
-CI/CD pipelines are integrated for continuous integration and deployment. The codebase is automatically tested and deployed to ensure that any new changes do not break the functionality.
-<br>
-<br>
 
 Future Enhancements :
+<br>
 Integrate advanced analytics for more accurate predictions.
+<br>
 Implement a more sophisticated alerting system (e.g., email/SMS notifications).
+<br>
 Optimize the model for better real-time performance.
+<br>
 Add more data sources for improved prediction accuracy.
 <br>
 <br>
 
 Contributing:
+<br>
 Feel free to open issues or submit pull requests for improvements and features.
 
 
