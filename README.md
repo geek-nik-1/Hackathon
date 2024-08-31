@@ -113,6 +113,33 @@ Add more data sources for improved prediction accuracy.
 <br>
 <hr>
 
+<h2>Setup Instructions</h2>
+
+<hr>
+
+<h3>Local Setup</h3>
+
+<pre>
+1. <b>Clone the repository:</b><br>
+   <code>git clone https://github.com/geek-nik-1/Hackathon.git</code><br>
+   <code>cd Hackathon</code><br><br>
+
+2. <b>Create and activate a virtual environment:</b><br>
+   <code>python3 -m venv venv</code><br>
+   <code>source venv/bin/activate  # On Windows use `venv\Scripts\activate`</code><br><br>
+
+3. <b>Install dependencies:</b><br>
+   <code>pip install -r requirements.txt</code><br><br>
+
+4. <b>Install the project:</b><br>
+   <code>pip install .</code><br><br>
+
+5. <b>Run the application:</b><br>
+   <code>python app.py</code><br><br>
+   The web application will be accessible at <a href="http://127.0.0.1:8080/">http://127.0.0.1:8080/</a>.<br>
+</pre>
+
+
 Contributing:
 <br>
 Feel free to open issues or submit pull requests for improvements and features.
