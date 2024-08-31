@@ -68,7 +68,6 @@ Project Structure :
 <br>
 └── README.md                     # This README file
 <br>
-<br>
 <hr>
 
 Prerequisites :
