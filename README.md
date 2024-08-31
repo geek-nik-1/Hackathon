@@ -8,6 +8,9 @@ This project aims to predict when industrial machinery is likely to fail or requ
 The project includes a machine learning model that predicts equipment failure, a Flask-based web application for real-time monitoring, and CI/CD pipelines for continuous integration and deployment.
 <br>
 <br>
+<br>
+<hr>
+
 
 Features :
 <br>
@@ -18,6 +21,8 @@ CI/CD Pipelines: Integrated pipelines for continuous integration and continuous 
 Model Deployment: The final model is saved as a pickle file and deployed using Flask.
 Alert System: Provides alerts based on prediction results to notify about potential machine failures.
 <br>
+<br>
+<hr>
 <br>
 
 Technology Stack :
