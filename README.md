@@ -15,7 +15,7 @@ Features :
 <br>
 Data Analysis & Feature Engineering: Exploratory Data Analysis (EDA) and feature engineering steps to handle and preprocess sensor and usage data.
 <br>
-Model Selection: Tested with different models including Decision Tree Classifier, Random Forest, and XGBoost. XGBoost provided the best accuracy.
+Model Selection: Tested with different models including Decision Tree Classifier, Random Forest, and GradientBoost. GradientBoost provided the best accuracy.
 <br>
 Real-time Monitoring: Flask web app with a user-friendly interface to predict system failure.
 <br>
@@ -32,7 +32,7 @@ Technology Stack :
 <br>
 Backend: Python, Flask
 <br>
-Machine Learning: Scikit-learn, XGBoost, Numpy, Pandas
+Machine Learning: Scikit-learn, GradientBoostingClassifier, Numpy, Pandas, RandomForestClassifier, KNeighboursClassifier
 <br>
 Frontend: HTML, CSS
 <br>
@@ -42,32 +42,34 @@ Model Deployment: Flask
 <hr>
 
 Project Structure :
-<br>
-├── src
-<br>
-│   ├── pipeline
-<br>
-│   │   ├── __init__.py
-<br>
-│   │   ├── predict_pipeline.py   # Prediction pipeline code
-<br>
-├── templates
-│   ├── index.html                # Main page
-<br>
-│   ├── home.html                 # Prediction page
-<br>
-├── static
-<br>
-│   ├── css
-<br>
-│   │   └── styles.css            # Styling for the web pages
-<br>
-├── app.py                        # Flask application entry point
-<br>
-├── model.pkl                     # Trained machine learning model
-<br>
-└── README.md                     # This README file
-<br>
+Hackathon/<br>
+├── data/<br>
+│   └── predictive_maintainance.csv<br>
+├── artifacts/<br>
+│   ├── df.csv<br>
+│   ├── model.pkl<br>
+│   ├── processor.pkl<br>
+│   ├── test.csv<br>
+│   └── train.csv<br>
+├── src/<br>
+│   ├── components/<br>
+│   │   ├── data_ingestion.py<br>
+│   │   ├── data_transformation.py<br>
+│   │   └── model_trainer.py<br>
+│   ├── pipeline/<br>
+│   │   ├── __init__.py<br>
+│   │   └── predict_pipeline.py<br>
+├── static/<br>
+│   └── css/<br>
+│       └── style.css<br>
+├── templates/<br>
+│   ├── home.html<br>
+│   └── index.html<br>
+├── app.py<br>
+├── requirements.txt<br>
+├── setup.py<br>
+└── README.md<br>
+
 <hr>
 
 Prerequisites :
@@ -87,14 +89,14 @@ XGBoost
 
 Model Performance :
 <br>
-The model performance was evaluated using different machine learning techniques. XGBoost performed the best, providing the highest accuracy compared to Decision Tree and Random Forest.
+The model performance was evaluated using different machine learning techniques. GradientBoosting performed the best, providing the highest accuracy compared to LogisticRegression and Random Forest.
 <br>
 <br>
-XGBoost: Best accuracy
+GradientBoosting: Best accuracy
 <br>
 RandomForest: Moderate accuracy
 <br>
-DecisionTree: Baseline model
+LogisticRegression: Baseline model
 <br>
 <br>
 <hr>
