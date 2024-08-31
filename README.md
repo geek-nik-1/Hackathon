@@ -83,8 +83,6 @@ Pandas
 Scikit-learn
 <br>
 XGBoost
-
-<br>
 <hr>
 
 Model Performance :
